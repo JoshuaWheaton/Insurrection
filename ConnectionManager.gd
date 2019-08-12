@@ -14,4 +14,4 @@ func on_host_game():
 	pass
 
 func on_join_game(ip):
-	pass
+	print_debug(ip)

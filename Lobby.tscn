@@ -67,7 +67,7 @@ margin_bottom = 184.324
 custom_fonts/font = SubResource( 3 )
 text = "Join Game"
 
-[node name="IP Address" type="TextEdit" parent="Panel/joinMenu"]
+[node name="IPAddress" type="TextEdit" parent="Panel/joinMenu"]
 margin_left = 426.499
 margin_top = 66.5059
 margin_right = 606.499

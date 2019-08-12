@@ -14,8 +14,9 @@ func _ready():
 
 
 func _on_hostButton_pressed():
-	pass
+	ConnectionManager.on_host_game()
 
 
 func _on_joinButton_pressed():
-	pass # Replace with function body.
+	var ip = $Panel/joinMenu/IPAddress.text
+	ConnectionManager.on_join_game(ip)
